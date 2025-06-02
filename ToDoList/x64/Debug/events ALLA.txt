@@ -1,0 +1,14 @@
+﻿[Event 1]
+Name=фівфвіф
+Description=вв
+Notes=
+Category=Особисті
+Completed=false
+PastDeadline=false
+Recurring=false
+Priority=1
+RecurrenceInterval=1
+CustomRecurrenceDays=0
+CreationDate=2025-05-29 23:35
+Deadline=2025-06-07 03:35
+

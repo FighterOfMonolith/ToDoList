@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Utilities">
+      <UniqueIdentifier>{dec442d4-6620-44f9-a411-7e02d03495b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utilities">
+      <UniqueIdentifier>{f0bf17ef-184e-4d75-849b-2c61ff79e5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Events">
+      <UniqueIdentifier>{e7fdf915-6f2e-4cf3-aa8f-6e24385697ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Events">
+      <UniqueIdentifier>{31180ba6-c496-4382-b869-887f4e3ad8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{c91a6dcb-a57c-4715-ab7a-473abd26b0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{ccfbe228-483b-41a1-9836-190d25f593e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{6bd93ad7-5ec6-4027-b937-05f30060e57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{2ce5ecdc-f820-4447-b053-b1604ae35871}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="AppConfig.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultAppConfig.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="EventList.cpp">
+      <Filter>Source Files\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="CategoryComboBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="EventDetailsDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultAppConfig.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="AppConfig.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="EventList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CategoryComboBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDetailsDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EventDialog.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ToDoList.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="todo-list.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

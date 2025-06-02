@@ -1,0 +1,9 @@
+// Application Configuration File
+// This file contains categories and other settings for the application.
+// You can edit these values, but please ensure the format is preserved.
+
+[Categories]
+category1 = Особисті
+category2 = Сім'я
+category3 = Загальні
+category4 = ві

@@ -1,0 +1,51 @@
+﻿  AppConfig.cpp
+  AppState.cpp
+D:\1241415\ToDoList\AppState.cpp(772,32): warning C4477: "swscanf_s": в строке форматирования "%04d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "WORD *"
+      D:\1241415\ToDoList\AppState.cpp(772,32):
+      рекомендуется использовать "%hd" в строке форматирования
+  
+D:\1241415\ToDoList\AppState.cpp(772,32): warning C4477: "swscanf_s": в строке форматирования "%02d" требуется аргумент типа "int *", но вариативный аргумент "2" имеет тип "WORD *"
+      D:\1241415\ToDoList\AppState.cpp(772,32):
+      рекомендуется использовать "%hd" в строке форматирования
+  
+D:\1241415\ToDoList\AppState.cpp(772,32): warning C4477: "swscanf_s": в строке форматирования "%02d" требуется аргумент типа "int *", но вариативный аргумент "3" имеет тип "WORD *"
+      D:\1241415\ToDoList\AppState.cpp(772,32):
+      рекомендуется использовать "%hd" в строке форматирования
+  
+D:\1241415\ToDoList\AppState.cpp(772,32): warning C4477: "swscanf_s": в строке форматирования "%02d" требуется аргумент типа "int *", но вариативный аргумент "4" имеет тип "WORD *"
+      D:\1241415\ToDoList\AppState.cpp(772,32):
+      рекомендуется использовать "%hd" в строке форматирования
+  
+D:\1241415\ToDoList\AppState.cpp(772,32): warning C4477: "swscanf_s": в строке форматирования "%02d" требуется аргумент типа "int *", но вариативный аргумент "5" имеет тип "WORD *"
+      D:\1241415\ToDoList\AppState.cpp(772,32):
+      рекомендуется использовать "%hd" в строке форматирования
+  
+  CategoryComboBox.cpp
+D:\1241415\ToDoList\CategoryComboBox.cpp(17,19): warning C4312: приведение типов: преобразование из "int" в "HMENU" большего размера
+  DefaultAppConfig.cpp
+  Event.cpp
+  EventDetailsDialog.cpp
+D:\1241415\ToDoList\EventDetailsDialog.cpp(42,76): warning C4309: аргумент: усечение константного значения
+D:\1241415\ToDoList\EventDetailsDialog.cpp(175,42): warning C4309: аргумент: усечение константного значения
+D:\1241415\ToDoList\EventDetailsDialog.cpp(249,14): warning C4244: инициализация: преобразование "LONGLONG" в "int", возможна потеря данных
+D:\1241415\ToDoList\EventDetailsDialog.cpp(324,18): warning C4244: инициализация: преобразование "LONGLONG" в "int", возможна потеря данных
+  EventDialog.cpp
+D:\1241415\ToDoList\EventDialog.cpp(209,74): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\1241415\ToDoList\EventDialog.cpp(213,12): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\1241415\ToDoList\EventDialog.cpp(357,10): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\1241415\ToDoList\EventDialog.cpp(405,11): warning C4101: ftEvent: неиспользованная локальная переменная
+D:\1241415\ToDoList\EventDialog.cpp(405,20): warning C4101: ftNow: неиспользованная локальная переменная
+  EventList.cpp
+  main.cpp
+D:\1241415\ToDoList\main.cpp(152,3): warning C4065: оператор switch содержит метку "default", но не содержит ни одной метки "case"
+  ApplicationUI.cpp
+D:\1241415\ToDoList\ApplicationUI.cpp(307,18): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\1241415\ToDoList\ApplicationUI.cpp(377,21): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+D:\1241415\ToDoList\ApplicationUI.cpp(735,16): warning C4244: инициализация: преобразование "LRESULT" в "int", возможна потеря данных
+  Utilities.cpp
+D:\1241415\ToDoList\Utilities.cpp(298,79): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\1241415\ToDoList\Utilities.cpp(304,49): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\1241415\ToDoList\Utilities.cpp(308,59): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+D:\1241415\ToDoList\Utilities.cpp(312,52): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  ToDoList.vcxproj -> D:\1241415\ToDoList\x64\Debug\ToDoList.exe
